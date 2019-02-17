@@ -1,0 +1,6 @@
+
+(gdb) print power_stats
+$33 = (power_stat_t *) 0x6b3df0
+(gdb) print *power_stats
+$34 = {pwr_core_stat = 0x6b3e30, pwr_mem_stat = 0x6b4870, m_average_pipeline_duty_cycle = 0x6b3db0, m_active_sms = 0x6b3dd0, m_config = 0x7ffff7dd3640 <g_the_gpu_config+160>,
+  m_mem_config = 0x7ffff7dd38f8 <g_the_gpu_config+856>}

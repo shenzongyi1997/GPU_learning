@@ -1,0 +1,11 @@
+(gdb) print stat_sample_freq
+$36 = 500
+(gdb) print tot_cycle
+$37 = 0
+(gdb) print cycle
+$38 = 1
+(gdb) print tot_inst
+$39 = 0
+(gdb) print inst
+$40 = 0
+(gdb)

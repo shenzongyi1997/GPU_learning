@@ -1,0 +1,26 @@
+
+(gdb) print wrapper
+$30 = (gpgpu_sim_wrapper *) 0x62c650
+(gdb) print *wrapper
+$31 = {proc = 0x62d320, p = 0x7ffff336b010, const_dynamic_power = 0, proc_power = 0, num_perf_counters = 30, num_pwr_cmps = 18, kernel_sample_count = 0, total_sample_count = 0,
+  kernel_cmp_pwr = std::vector of length 18, capacity 18 = {{avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0,
+      max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0,
+      max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0,
+      max = 0, min = 0}, {avg = 0, max = 0, min = 0}}, kernel_cmp_perf_counters = std::vector of length 30, capacity 30 = {{avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {
+      avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {
+      avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {
+      avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {
+      avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {
+      avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}, {avg = 0, max = 0, min = 0}}, kernel_tot_power = 0, kernel_power = {avg = 0, max = 0,
+    min = 0}, gpu_tot_power = {avg = 0, max = 0, min = 0}, has_written_avg = false, sample_cmp_pwr = std::vector of length 18, capacity 18 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0}, sample_perf_counters = std::vector of length 30, capacity 30 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  initpower_coeff = std::vector of length 30, capacity 30 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  effpower_coeff = std::vector of length 30, capacity 30 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, sample_start = 4126902000,
+  sample_val = 0, init_inst_val = 0, samples = std::vector of length 0, capacity 0, samples_counter = std::vector of length 0, capacity 0,
+  pwr_counter = std::vector of length 0, capacity 0, xml_filename = 0x62d200 "gpuwattch_gtx480.xml", g_power_filename = 0x62b0b0 "gpgpusim_power_report__Wed-Feb-13-13-43-01-2019.log",
+  g_power_trace_filename = 0x62bb10 "gpgpusim_power_trace_report__Wed-Feb-13-13-43-01-2019.log.gz",
+  g_metric_trace_filename = 0x6234f0 "gpgpusim_metric_trace_report__Wed-Feb-13-13-43-01-2019.log.gz",
+  g_steady_state_tracking_filename = 0x620d00 "gpgpusim_steady_state_tracking_report__Wed-Feb-13-13-43-01-2019.log.gz", g_power_simulation_enabled = true,
+  g_steady_power_levels_enabled = true, g_power_trace_enabled = true, g_power_per_cycle_dump = true, gpu_steady_power_deviation = 8, gpu_steady_min_period = 4, g_power_trace_zlevel = 6,
+  gpu_stat_sample_frequency = 3.1974821891798792e-317, gpu_stat_sample_freq = 500, powerfile = <incomplete type>, power_trace_file = 0x7fffec2ad000, metric_trace_file = 0x7fffec807390,
+  steady_state_tacking_file = 0x7fffec02a020}

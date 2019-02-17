@@ -1,0 +1,8 @@
+/usr/bin/g++-4.8 -std=c++11 -pthread -Wall -g main.cc -I/home/zongyi/GPGPU-Sim-20190208/src/gpgpu-sim/ -I/home/zongyi/GPGPU-Sim-20190208/src/gpuwattch/  -L/home/zongyi/GPGPU-Sim-20190208/lib/gcc-5.4.0/cuda-9010/debug -lcudart -L/home/zongyi/GPGPU-Sim-20190208/build/gcc-5.4.0/cuda-9010/debug/libcuda -lcuda -L/home/zongyi/GPGPU-Sim-20190208/build/gcc-5.4.0/cuda-9010/debug -lgpgpusim -L/home/zongyi/GPGPU-Sim-20190208/build/gcc-5.4.0/cuda-9010/debug/cuda-sim/ -lgpgpu_ptx_sim -L/home/zongyi/GPGPU-Sim-20190208/build/gcc-5.4.0/cuda-9010/debug/gpgpu-sim/ -L/usr/local/lib -lgpu_uarch_sim  -lm -lz -lGL -lboost_regex -lboost_system -lboost_log_setup -lboost_log -lboost_date_time -lboost_thread -lrt -lboost_filesystem -lgmp -lmpfr  -lboost_regex -lboost_system -lboost_log_setup -lboost_log -lboost_date_time -lboost_thread -lrt -lboost_filesystem -lunwind -o main
+
+
+
+
+
+
+/usr/bin/g++-4.8 -pthread -Wall -g NN_float.cu_o -L/home/zongyi/GPGPU-Sim_dev-half2/lib/gcc-5.4.0/cuda-9010/debug -lcudart -L/home/zongyi/GPGPU-Sim_dev-half2/build/gcc-5.4.0/cuda-9010/debug/libcuda -lcuda -L/home/zongyi/GPGPU-Sim_dev-half2/build/gcc-5.4.0/cuda-9010/debug -lgpgpusim -L/home/zongyi/GPGPU-Sim_dev-half2/build/gcc-5.4.0/cuda-9010/debug/cuda-sim/ -lgpgpu_ptx_sim -L/home/zongyi/GPGPU-Sim_dev-half2/build/gcc-5.4.0/cuda-9010/debug/gpgpu-sim/ -L/usr/local/lib -lgpu_uarch_sim  -lm -lz -lGL -lboost_regex -lboost_system -lboost_log_setup -lboost_log -lboost_date_time -lboost_thread -lrt -lboost_filesystem -o NN_float -lgmp -lmpfr  -lboost_regex -lboost_system -lboost_log_setup -lboost_log -lboost_date_time -lboost_thread -lrt -lboost_filesystem -lunwind -o NN_float

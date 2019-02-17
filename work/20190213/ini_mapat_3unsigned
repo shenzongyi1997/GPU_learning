@@ -1,0 +1,9 @@
+
+(gdb) print stat_sample_freq
+$12 = 500
+
+
+(gdb) print tot_inst
+$14 = 0
+(gdb) print inst
+$15 = 0
